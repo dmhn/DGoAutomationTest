@@ -1,37 +1,415 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="11" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-02-27T04:36:50Z" name="Default suite" finished-at="2018-02-27T04:36:58Z" duration-ms="8538">
+  <suite started-at="2018-04-05T18:22:28Z" name="Disney Go Application Test Automation Test Suite" finished-at="2018-04-05T18:24:51Z" duration-ms="142981">
     <groups>
     </groups>
-    <test started-at="2018-02-27T04:36:50Z" name="Default test" finished-at="2018-02-27T04:36:58Z" duration-ms="8538">
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1e178745]" started-at="2018-02-26T23:36:50Z" name="setUp" finished-at="2018-02-26T23:36:52Z" duration-ms="2333" status="PASS">
+    <test started-at="2018-04-05T18:22:28Z" name="Disney Go Test Cases" finished-at="2018-04-05T18:24:51Z" duration-ms="142981">
+      <class name="com.disneygo.qa.testcases.CartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-05T14:22:33Z" name="setUp" finished-at="2018-04-05T14:22:42Z" duration-ms="8870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@1e178745]" started-at="2018-02-26T23:36:52Z" name="loginPageTitleTest" finished-at="2018-02-26T23:36:52Z" duration-ms="18" status="PASS">
+        <test-method signature="verifyCartPageText()[pri:1, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-05T14:22:42Z" name="verifyCartPageText" finished-at="2018-04-05T14:22:53Z" duration-ms="11090" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Cart!')]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'Deepas-MBP', ip: '2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 628567e66298f4cd4f923d8e4093e5a8
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Your Cart!')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Your Cart!')]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'Deepas-MBP', ip: '2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 628567e66298f4cd4f923d8e4093e5a8
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Your Cart!')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)
+	at com.disneygo.qa.pages.CartPage.verifyCartPageText(CartPage.java:17)
+	at com.disneygo.qa.testcases.CartPageTest.verifyCartPageText(CartPageTest.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1e178745]" started-at="2018-02-26T23:36:52Z" name="setUp" finished-at="2018-02-26T23:36:54Z" duration-ms="2042" status="PASS">
+        </test-method> <!-- verifyCartPageText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-05T14:22:53Z" name="tearDown" finished-at="2018-04-05T14:22:53Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.disneygo.qa.testcases.CartPageTest -->
+      <class name="com.disneygo.qa.testcases.PlacesToStayPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-05T14:23:05Z" name="setUp" finished-at="2018-04-05T14:23:18Z" duration-ms="13551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@1e178745]" started-at="2018-02-26T23:36:54Z" name="crmLogoImageTest" finished-at="2018-02-26T23:36:54Z" duration-ms="39" status="PASS">
+        <test-method signature="verifyCartPageText()[pri:1, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-05T14:23:18Z" name="verifyCartPageText" finished-at="2018-04-05T14:23:18Z" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crmLogoImageTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@1e178745]" started-at="2018-02-26T23:36:54Z" name="setUp" finished-at="2018-02-26T23:36:57Z" duration-ms="2352" status="PASS">
+        </test-method> <!-- verifyCartPageText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-05T14:23:18Z" name="tearDown" finished-at="2018-04-05T14:23:19Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.disneygo.qa.testcases.PlacesToStayPageTest -->
+      <class name="com.disneygo.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:22:28Z" name="setUp" finished-at="2018-04-05T14:22:32Z" duration-ms="4444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@1e178745]" started-at="2018-02-26T23:36:57Z" name="loginTest" finished-at="2018-02-26T23:36:58Z" duration-ms="1731" status="PASS">
+        <test-method signature="verifyDisneyHomePageLogo()[pri:1, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:22:32Z" name="verifyDisneyHomePageLogo" finished-at="2018-04-05T14:22:33Z" duration-ms="505" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifyDisneyHomePageLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:22:33Z" name="tearDown" finished-at="2018-04-05T14:22:33Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:19Z" name="setUp" finished-at="2018-04-05T14:23:25Z" duration-ms="6475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateSubMenuParksAndTickets()[pri:2, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:25Z" name="navigateSubMenuParksAndTickets" finished-at="2018-04-05T14:23:32Z" duration-ms="7246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateSubMenuParksAndTickets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:32Z" name="tearDown" finished-at="2018-04-05T14:23:32Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:32Z" name="setUp" finished-at="2018-04-05T14:23:38Z" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyParksAndTicketsDropDownMenu()[pri:2, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:38Z" name="verifyParksAndTicketsDropDownMenu" finished-at="2018-04-05T14:23:38Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyParksAndTicketsDropDownMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:38Z" name="tearDown" finished-at="2018-04-05T14:23:38Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:38Z" name="setUp" finished-at="2018-04-05T14:23:44Z" duration-ms="5600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToParksAndTickets()[pri:10, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:44Z" name="navigateToParksAndTickets" finished-at="2018-04-05T14:23:50Z" duration-ms="5933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToParksAndTickets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:50Z" name="tearDown" finished-at="2018-04-05T14:23:50Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:50Z" name="setUp" finished-at="2018-04-05T14:23:53Z" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToPlacesToStay()[pri:20, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:53Z" name="navigateToPlacesToStay" finished-at="2018-04-05T14:23:58Z" duration-ms="4945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPlacesToStay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:58Z" name="tearDown" finished-at="2018-04-05T14:23:58Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:23:58Z" name="setUp" finished-at="2018-04-05T14:24:09Z" duration-ms="10820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToThingsToDo()[pri:30, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:09Z" name="navigateToThingsToDo" finished-at="2018-04-05T14:24:13Z" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToThingsToDo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:13Z" name="tearDown" finished-at="2018-04-05T14:24:14Z" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:14Z" name="setUp" finished-at="2018-04-05T14:24:22Z" duration-ms="8459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToShop()[pri:40, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:22Z" name="navigateToShop" finished-at="2018-04-05T14:24:24Z" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToShop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:24Z" name="tearDown" finished-at="2018-04-05T14:24:25Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:25Z" name="setUp" finished-at="2018-04-05T14:24:30Z" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToAnnualPassports()[pri:50, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:30Z" name="navigateToAnnualPassports" finished-at="2018-04-05T14:24:33Z" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAnnualPassports -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:33Z" name="tearDown" finished-at="2018-04-05T14:24:33Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:33Z" name="setUp" finished-at="2018-04-05T14:24:39Z" duration-ms="5940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToHelp()[pri:60, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:39Z" name="navigateToHelp" finished-at="2018-04-05T14:24:42Z" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHelp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:42Z" name="tearDown" finished-at="2018-04-05T14:24:42Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:42Z" name="setUp" finished-at="2018-04-05T14:24:47Z" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToCart()[pri:70, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:47Z" name="navigateToCart" finished-at="2018-04-05T14:24:51Z" duration-ms="3668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-05T14:24:51Z" name="tearDown" finished-at="2018-04-05T14:24:51Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.disneygo.qa.testcases.HomePageTest -->
+      <class name="com.disneygo.qa.testcases.DisneylandParkPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-05T14:22:53Z" name="setUp" finished-at="2018-04-05T14:23:05Z" duration-ms="11948" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'Deepas-MBP', ip: '2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8bbb4ed3eacc43c42fd144fd75aacc24]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'Deepas-MBP', ip: '2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8bbb4ed3eacc43c42fd144fd75aacc24
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:388)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.disneygo.qa.pages.HomePage.mouseHoverOnParksAndTickets(HomePage.java:110)
+	at com.disneygo.qa.testcases.DisneylandParkPageTest.setUp(DisneylandParkPageTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDisneylandPageText()[pri:1, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-05T14:23:05Z" name="verifyDisneylandPageText" finished-at="2018-04-05T14:23:05Z" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'Deepas-MBP', ip: '2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8bbb4ed3eacc43c42fd144fd75aacc24]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'Deepas-MBP', ip: '2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8bbb4ed3eacc43c42fd144fd75aacc24
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:388)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.disneygo.qa.pages.HomePage.mouseHoverOnParksAndTickets(HomePage.java:110)
+	at com.disneygo.qa.testcases.DisneylandParkPageTest.setUp(DisneylandParkPageTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisneylandPageText -->
+      </class> <!-- com.disneygo.qa.testcases.DisneylandParkPageTest -->
+    </test> <!-- Disney Go Test Cases -->
+  </suite> <!-- Disney Go Application Test Automation Test Suite -->
 </testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Disney Go Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="Disney Go Test Cases">
+		<classes>
+			<class name="com.disneygo.qa.testcases.HomePageTest"></class>
+			<class name="com.disneygo.qa.testcases.DisneylandParkPageTest"></class>
+			<class name="com.disneygo.qa.testcases.PlacesToStayPageTest"></class>
+			<class name="com.disneygo.qa.testcases.SearchResultPageTest"></class>
+			<class name="com.disneygo.qa.testcases.HelpPageTest"></class>
+			<class name="com.disneygo.qa.testcases.CartPageTest"></class>
+
+		</classes>
+	</test>
+</suite>

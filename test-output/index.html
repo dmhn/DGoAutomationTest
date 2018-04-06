@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Disney Go Application Test Automation Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Disney_Go_Application_Test_Automation_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,31 +91,99 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">13 methods, 1 failed,  1 skipped,  11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="hide-methods failed suite-Disney_Go_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Disney_Go_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="show-methods failed suite-Disney_Go_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-Disney_Go_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Disney_Go_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.CartPageTest" class="method navigator-link" hash-for-method="verifyCartPageText">verifyCartPageText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Disney_Go_Application_Test_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="hide-methods skipped suite-Disney_Go_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-Disney_Go_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="show-methods skipped suite-Disney_Go_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods skipped suite-Disney_Go_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Disney_Go_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.DisneylandParkPageTest" class="method navigator-link" hash-for-method="verifyDisneylandPageText">verifyDisneylandPageText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Disney_Go_Application_Test_Automation_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="hide-methods passed suite-Disney_Go_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Disney_Go_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="show-methods passed suite-Disney_Go_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Disney_Go_Application_Test_Automation_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Disney_Go_Application_Test_Automation_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.crm.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="crmLogoImageTest">crmLogoImageTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateSubMenuParksAndTickets">navigateSubMenuParksAndTickets</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.crm.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateToAnnualPassports">navigateToAnnualPassports</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.crm.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateToCart">navigateToCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateToHelp">navigateToHelp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateToParksAndTickets">navigateToParksAndTickets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateToPlacesToStay">navigateToPlacesToStay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateToShop">navigateToShop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="navigateToThingsToDo">navigateToThingsToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.PlacesToStayPageTest" class="method navigator-link" hash-for-method="verifyCartPageText">verifyCartPageText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyDisneyHomePageLogo">verifyDisneyHomePageLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" title="com.disneygo.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyParksAndTicketsDropDownMenu">verifyParksAndTicketsDropDownMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Disney_Go_Application_Test_Automation_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -126,156 +194,499 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Disney_Go_Application_Test_Automation_Test_Suite" class="panel Disney_Go_Application_Test_Automation_Test_Suite">
+          <div class="suite-Disney_Go_Application_Test_Automation_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.crm.qa.testcases.LoginPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.disneygo.qa.testcases.CartPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="crmLogoImageTest">
-                  </a> <!-- crmLogoImageTest -->
-                  <span class="method-name">crmLogoImageTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginPageTitleTest">
-                  </a> <!-- loginPageTitleTest -->
-                  <span class="method-name">loginPageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
+                  <a name="verifyCartPageText">
+                  </a> <!-- verifyCartPageText -->
+                  <span class="method-name">verifyCartPageText</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(),&apos;Your Cart!&apos;)]&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;Deepas-MBP&apos;, ip: &apos;2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 628567e66298f4cd4f923d8e4093e5a8
+*** Element info: {Using=xpath, value=//h1[contains(text(),&apos;Your Cart!&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)
+	at com.disneygo.qa.pages.CartPage.verifyCartPageText(CartPage.java:17)
+	at com.disneygo.qa.testcases.CartPageTest.verifyCartPageText(CartPageTest.java:36)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Disney_Go_Application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-Disney_Go_Application_Test_Automation_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.disneygo.qa.testcases.DisneylandParkPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisneylandPageText">
+                  </a> <!-- verifyDisneylandPageText -->
+                  <span class="method-name">verifyDisneylandPageText</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;Deepas-MBP&apos;, ip: &apos;2600:1700:1060:1c70:f44c:5051:89d5:5e15%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;9.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/0_/v7qm74pn37d...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8bbb4ed3eacc43c42fd144fd75aacc24
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:388)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.disneygo.qa.pages.HomePage.mouseHoverOnParksAndTickets(HomePage.java:110)
+	at com.disneygo.qa.testcases.DisneylandParkPageTest.setUp(DisneylandParkPageTest.java:32)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Disney_Go_Application_Test_Automation_Test_Suite-class-skipped -->
+          <div class="suite-Disney_Go_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.disneygo.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateSubMenuParksAndTickets">
+                  </a> <!-- navigateSubMenuParksAndTickets -->
+                  <span class="method-name">navigateSubMenuParksAndTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToAnnualPassports">
+                  </a> <!-- navigateToAnnualPassports -->
+                  <span class="method-name">navigateToAnnualPassports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToCart">
+                  </a> <!-- navigateToCart -->
+                  <span class="method-name">navigateToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToHelp">
+                  </a> <!-- navigateToHelp -->
+                  <span class="method-name">navigateToHelp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToParksAndTickets">
+                  </a> <!-- navigateToParksAndTickets -->
+                  <span class="method-name">navigateToParksAndTickets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToPlacesToStay">
+                  </a> <!-- navigateToPlacesToStay -->
+                  <span class="method-name">navigateToPlacesToStay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToShop">
+                  </a> <!-- navigateToShop -->
+                  <span class="method-name">navigateToShop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToThingsToDo">
+                  </a> <!-- navigateToThingsToDo -->
+                  <span class="method-name">navigateToThingsToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisneyHomePageLogo">
+                  </a> <!-- verifyDisneyHomePageLogo -->
+                  <span class="method-name">verifyDisneyHomePageLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyParksAndTicketsDropDownMenu">
+                  </a> <!-- verifyParksAndTicketsDropDownMenu -->
+                  <span class="method-name">verifyParksAndTicketsDropDownMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Disney_Go_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Disney_Go_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.disneygo.qa.testcases.PlacesToStayPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPageText">
+                  </a> <!-- verifyCartPageText -->
+                  <span class="method-name">verifyCartPageText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Disney_Go_Application_Test_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel Disney_Go_Application_Test_Automation_Test_Suite -->
+        <div panel-name="test-xml-Disney_Go_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/0_/v7qm74pn37d5sygwbdwdwlwm0000gn/T/testng-eclipse--1287617069/testng-customsuite.xml</span>
+            <span class="header-content">/Users/deepamohan/eclipse-workspace/DisneyGoTest/src/main/resources/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Disney Go Application Test Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Disney Go Test Cases&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.crm.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.disneygo.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.disneygo.qa.testcases.DisneylandParkPageTest&quot;/&gt;
+      &lt;class name=&quot;com.disneygo.qa.testcases.PlacesToStayPageTest&quot;/&gt;
+      &lt;class name=&quot;com.disneygo.qa.testcases.SearchResultPageTest&quot;/&gt;
+      &lt;class name=&quot;com.disneygo.qa.testcases.HelpPageTest&quot;/&gt;
+      &lt;class name=&quot;com.disneygo.qa.testcases.CartPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Disney Go Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Disney Go Application Test Automation Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Disney_Go_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Disney Go Application Test Automation Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Disney Go Test Cases (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Disney_Go_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Disney Go Application Test Automation Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Disney_Go_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Disney Go Application Test Automation Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Disney_Go_Application_Test_Automation_Test_Suite');
+function tableData_Disney_Go_Application_Test_Automation_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 1731);
+data.setCell(0, 1, 'verifyCartPageText')
+data.setCell(0, 2, 'com.disneygo.qa.testcases.CartPageTest')
+data.setCell(0, 3, 11090);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'crmLogoImageTest')
-data.setCell(1, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 39);
+data.setCell(1, 1, 'navigateSubMenuParksAndTickets')
+data.setCell(1, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(1, 3, 7246);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginPageTitleTest')
-data.setCell(2, 2, 'com.crm.qa.testcases.LoginPageTest')
-data.setCell(2, 3, 18);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(2, 1, 'navigateToParksAndTickets')
+data.setCell(2, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(2, 3, 5933);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'navigateToPlacesToStay')
+data.setCell(3, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(3, 3, 4945);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigateToThingsToDo')
+data.setCell(4, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(4, 3, 4544);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigateToCart')
+data.setCell(5, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(5, 3, 3668);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'navigateToAnnualPassports')
+data.setCell(6, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(6, 3, 3216);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'navigateToHelp')
+data.setCell(7, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(7, 3, 2633);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'navigateToShop')
+data.setCell(8, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(8, 3, 2307);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyDisneyHomePageLogo')
+data.setCell(9, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(9, 3, 505);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyParksAndTicketsDropDownMenu')
+data.setCell(10, 2, 'com.disneygo.qa.testcases.HomePageTest')
+data.setCell(10, 3, 48);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCartPageText')
+data.setCell(11, 2, 'com.disneygo.qa.testcases.PlacesToStayPageTest')
+data.setCell(11, 3, 35);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyDisneylandPageText')
+data.setCell(12, 2, 'com.disneygo.qa.testcases.DisneylandParkPageTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['Disney_Go_Application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Disney_Go_Application_Test_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Disney_Go_Application_Test_Automation_Test_Suite">
+              </div> <!-- times-div-Disney_Go_Application_Test_Automation_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Disney_Go_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Disney Go Application Test Automation Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Disney_Go_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Disney_Go_Application_Test_Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.disneygo.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">2333 ms</span>
+                <span class="method-name">verifyDisneyHomePageLogo</span>
+                <span class="method-start">4444 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4950 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.disneygo.qa.testcases.CartPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">2355 ms</span>
+                <span class="method-start">5029 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">crmLogoImageTest</span>
-                <span class="method-start">4397 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCartPageText</span>
+                <span class="method-start">13899 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24995 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.disneygo.qa.testcases.DisneylandParkPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">25141 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.disneygo.qa.testcases.PlacesToStayPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4437 ms</span>
+                <span class="method-start">37093 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">6789 ms</span>
+                <span class="method-name">verifyCartPageText</span>
+                <span class="method-start">50644 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50679 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.disneygo.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateSubMenuParksAndTickets</span>
+                <span class="method-start">57263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyParksAndTicketsDropDownMenu</span>
+                <span class="method-start">70288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70337 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToParksAndTickets</span>
+                <span class="method-start">76023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToPlacesToStay</span>
+                <span class="method-start">85303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">90339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToThingsToDo</span>
+                <span class="method-start">101160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105706 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">105859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToShop</span>
+                <span class="method-start">114318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">116729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToAnnualPassports</span>
+                <span class="method-start">122147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToHelp</span>
+                <span class="method-start">131397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">134126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToCart</span>
+                <span class="method-start">139200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142869 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
