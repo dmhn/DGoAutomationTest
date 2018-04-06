@@ -1,5 +1,5 @@
 /*
- * test automation script by
+ * test automation for DGO script by
  * author: Deepa Mohan
  * 
  */
