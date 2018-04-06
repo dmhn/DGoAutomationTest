@@ -20,6 +20,29 @@
           <include name="verifyDisneylandPageText"/>
         </methods>
       </class> <!-- com.disneygo.qa.testcases.DisneylandParkPageTest -->
+      <class name="com.disneygo.qa.testcases.HomePageTest">
+        <methods>
+          <include name="navigateSubMenuParksAndTickets"/>
+          <include name="tearDown"/>
+          <include name="navigateToThingsToDo"/>
+          <include name="setUp"/>
+          <include name="navigateToAnnualPassports"/>
+          <include name="verifyDisneyHomePageLogo"/>
+          <include name="navigateToPlacesToStay"/>
+          <include name="navigateToCart"/>
+          <include name="navigateToParksAndTickets"/>
+          <include name="navigateToShop"/>
+          <include name="navigateToHelp"/>
+          <include name="verifyParksAndTicketsDropDownMenu"/>
+        </methods>
+      </class> <!-- com.disneygo.qa.testcases.HomePageTest -->
+      <class name="com.disneygo.qa.testcases.PlacesToStayPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCartPageText"/>
+        </methods>
+      </class> <!-- com.disneygo.qa.testcases.PlacesToStayPageTest -->
     </classes>
   </test> <!-- Disney Go Test Cases(failed) -->
 </suite> <!-- Failed suite [Disney Go Application Test Automation Test Suite] -->

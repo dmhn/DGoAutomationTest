@@ -59,6 +59,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=1)
 	public void verifyDisneyHomePageLogo() {
 			Assert.assertTrue(homePage.verifyDisneylandLogo(), "Disney image is missing");
+			
 	}
 	@Test(priority=2)
 	public void verifyParksAndTicketsDropDownMenu() {

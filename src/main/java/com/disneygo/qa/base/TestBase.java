@@ -26,8 +26,8 @@ public class TestBase {
 		
 		try {
 			prop= new Properties();
-			FileInputStream ip=new FileInputStream("/Users/deepamohan/eclipse-workspace/DisneyGoTest/src/main/java/com/disneygo/qa/"
-					+ "config/config.properties");
+			FileInputStream ip=new FileInputStream("//Users/deepamohan/eclipse-workspace/"
+					+ "DGoTestAutomation/src/main/java/com/disneygo/qa/config/config.properties");
 					prop.load(ip);
 					
 		}catch (FileNotFoundException e) {
@@ -49,6 +49,7 @@ public static void initialization() {
 				System.setProperty("webdriver.gecko.driver", "/Applications/geckodriver");
 				 driver=new FirefoxDriver();	
 	}
+		 
 	e_driver = new EventFiringWebDriver(driver);
 	// Now create object of EventListerHandler to register it with EventFiringWebDriver
 	eventListener = new WebEventListener();
