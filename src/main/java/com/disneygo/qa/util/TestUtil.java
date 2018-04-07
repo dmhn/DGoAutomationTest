@@ -1,4 +1,4 @@
-package com.disneygo.qa.utils;
+package com.disneygo.qa.util;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -11,8 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-import com.disneygo.qa.utils.TestUtil;
-import com.disneygo.qa.utils.WebEventListener;
+import com.disneygo.qa.util.TestUtil;
+import com.disneygo.qa.util.WebEventListener;
 
 public class TestBase {
 

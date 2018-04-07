@@ -17,7 +17,7 @@ import com.disneygo.qa.pages.ParksAndTicketsPage;
 import com.disneygo.qa.pages.PlacesToStayPage;
 import com.disneygo.qa.pages.ShopPage;
 import com.disneygo.qa.pages.ThingsToDoPage;
-import com.disneygo.qa.utils.TestUtil;
+import com.disneygo.qa.util.TestUtil;
 
 public class HomePageTest extends TestBase {
 	

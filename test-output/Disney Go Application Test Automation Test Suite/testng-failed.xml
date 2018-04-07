@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Disney Go Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
   <test name="Disney Go Test Cases(failed)">
     <classes>

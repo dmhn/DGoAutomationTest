@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import com.disneygo.qa.base.TestBase;
 import com.disneygo.qa.pages.DisneylandParkPage;
 import com.disneygo.qa.pages.HomePage;
-import com.disneygo.qa.utils.TestUtil;
+import com.disneygo.qa.util.TestUtil;
 
 public class DisneylandParkPageTest extends TestBase{
 	

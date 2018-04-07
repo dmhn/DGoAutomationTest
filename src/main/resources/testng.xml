@@ -3,7 +3,7 @@
 <suite name="Disney Go Application Test Automation Test Suite">
 
 	<listeners>
-		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
 
