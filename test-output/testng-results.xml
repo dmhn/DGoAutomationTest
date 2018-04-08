@@ -2,170 +2,170 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-04-07T01:12:09Z" name="Disney Go Application Test Automation Test Suite" finished-at="2018-04-07T01:14:19Z" duration-ms="129664">
+  <suite started-at="2018-04-08T19:25:33Z" name="Disney Go Application Test Automation Test Suite" finished-at="2018-04-08T19:27:19Z" duration-ms="105749">
     <groups>
     </groups>
-    <test started-at="2018-04-07T01:12:09Z" name="Disney Go Test Cases" finished-at="2018-04-07T01:14:19Z" duration-ms="129664">
+    <test started-at="2018-04-08T19:25:33Z" name="Disney Go Test Cases" finished-at="2018-04-08T19:27:19Z" duration-ms="105749">
       <class name="com.disneygo.qa.testcases.CartPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-06T21:12:16Z" name="setUp" finished-at="2018-04-06T21:12:29Z" duration-ms="13606" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-08T15:25:40Z" name="setUp" finished-at="2018-04-08T15:25:48Z" duration-ms="8011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCartPageText()[pri:1, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-06T21:12:29Z" name="verifyCartPageText" finished-at="2018-04-06T21:12:30Z" duration-ms="200" status="PASS">
+        <test-method signature="verifyCartPageText()[pri:1, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-08T15:25:48Z" name="verifyCartPageText" finished-at="2018-04-08T15:25:48Z" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartPageText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-06T21:12:30Z" name="tearDown" finished-at="2018-04-06T21:12:30Z" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.CartPageTest@3f56875e]" started-at="2018-04-08T15:25:48Z" name="tearDown" finished-at="2018-04-08T15:25:48Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.disneygo.qa.testcases.CartPageTest -->
       <class name="com.disneygo.qa.testcases.PlacesToStayPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-06T21:12:40Z" name="setUp" finished-at="2018-04-06T21:12:49Z" duration-ms="9656" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-08T15:26:00Z" name="setUp" finished-at="2018-04-08T15:26:07Z" duration-ms="7027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCartPageText()[pri:1, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-06T21:12:49Z" name="verifyCartPageText" finished-at="2018-04-06T21:12:49Z" duration-ms="31" status="PASS">
+        <test-method signature="verifyCartPageText()[pri:1, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-08T15:26:07Z" name="verifyCartPageText" finished-at="2018-04-08T15:26:07Z" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartPageText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-06T21:12:49Z" name="tearDown" finished-at="2018-04-06T21:12:50Z" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.PlacesToStayPageTest@32910148]" started-at="2018-04-08T15:26:07Z" name="tearDown" finished-at="2018-04-08T15:26:07Z" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.disneygo.qa.testcases.PlacesToStayPageTest -->
       <class name="com.disneygo.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:12:09Z" name="setUp" finished-at="2018-04-06T21:12:16Z" duration-ms="6598" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:25:33Z" name="setUp" finished-at="2018-04-08T15:25:40Z" duration-ms="6593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDisneyHomePageLogo()[pri:1, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:12:16Z" name="verifyDisneyHomePageLogo" finished-at="2018-04-06T21:12:16Z" duration-ms="46" status="PASS">
+        <test-method signature="verifyDisneyHomePageLogo()[pri:1, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:25:40Z" name="verifyDisneyHomePageLogo" finished-at="2018-04-08T15:25:40Z" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisneyHomePageLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:12:16Z" name="tearDown" finished-at="2018-04-06T21:12:16Z" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:25:40Z" name="tearDown" finished-at="2018-04-08T15:25:40Z" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:12:50Z" name="setUp" finished-at="2018-04-06T21:12:55Z" duration-ms="5650" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:07Z" name="setUp" finished-at="2018-04-08T15:26:12Z" duration-ms="5002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateSubMenuParksAndTickets()[pri:2, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:12:55Z" name="navigateSubMenuParksAndTickets" finished-at="2018-04-06T21:13:04Z" duration-ms="8403" status="PASS">
+        <test-method signature="navigateSubMenuParksAndTickets()[pri:2, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:12Z" name="navigateSubMenuParksAndTickets" finished-at="2018-04-08T15:26:18Z" duration-ms="5611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateSubMenuParksAndTickets -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:04Z" name="tearDown" finished-at="2018-04-06T21:13:04Z" duration-ms="106" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:18Z" name="tearDown" finished-at="2018-04-08T15:26:18Z" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:04Z" name="setUp" finished-at="2018-04-06T21:13:08Z" duration-ms="4626" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:18Z" name="setUp" finished-at="2018-04-08T15:26:23Z" duration-ms="5101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyParksAndTicketsDropDownMenu()[pri:2, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:08Z" name="verifyParksAndTicketsDropDownMenu" finished-at="2018-04-06T21:13:08Z" duration-ms="41" status="PASS">
+        <test-method signature="verifyParksAndTicketsDropDownMenu()[pri:2, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:23Z" name="verifyParksAndTicketsDropDownMenu" finished-at="2018-04-08T15:26:23Z" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyParksAndTicketsDropDownMenu -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:08Z" name="tearDown" finished-at="2018-04-06T21:13:08Z" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:23Z" name="tearDown" finished-at="2018-04-08T15:26:23Z" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:08Z" name="setUp" finished-at="2018-04-06T21:13:14Z" duration-ms="5462" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:23Z" name="setUp" finished-at="2018-04-08T15:26:27Z" duration-ms="3443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToParksAndTickets()[pri:10, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:14Z" name="navigateToParksAndTickets" finished-at="2018-04-06T21:13:23Z" duration-ms="8978" status="PASS">
+        <test-method signature="navigateToParksAndTickets()[pri:10, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:27Z" name="navigateToParksAndTickets" finished-at="2018-04-08T15:26:34Z" duration-ms="7161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToParksAndTickets -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:23Z" name="tearDown" finished-at="2018-04-06T21:13:23Z" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:34Z" name="tearDown" finished-at="2018-04-08T15:26:34Z" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:23Z" name="setUp" finished-at="2018-04-06T21:13:31Z" duration-ms="8415" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:34Z" name="setUp" finished-at="2018-04-08T15:26:39Z" duration-ms="4682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToPlacesToStay()[pri:20, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:31Z" name="navigateToPlacesToStay" finished-at="2018-04-06T21:13:35Z" duration-ms="3200" status="PASS">
+        <test-method signature="navigateToPlacesToStay()[pri:20, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:39Z" name="navigateToPlacesToStay" finished-at="2018-04-08T15:26:41Z" duration-ms="2071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToPlacesToStay -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:35Z" name="tearDown" finished-at="2018-04-06T21:13:35Z" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:41Z" name="tearDown" finished-at="2018-04-08T15:26:41Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:35Z" name="setUp" finished-at="2018-04-06T21:13:42Z" duration-ms="6797" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:41Z" name="setUp" finished-at="2018-04-08T15:26:45Z" duration-ms="4521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToThingsToDo()[pri:30, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:42Z" name="navigateToThingsToDo" finished-at="2018-04-06T21:13:46Z" duration-ms="4091" status="PASS">
+        <test-method signature="navigateToThingsToDo()[pri:30, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:45Z" name="navigateToThingsToDo" finished-at="2018-04-08T15:26:50Z" duration-ms="4324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToThingsToDo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:46Z" name="tearDown" finished-at="2018-04-06T21:13:46Z" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:50Z" name="tearDown" finished-at="2018-04-08T15:26:50Z" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:46Z" name="setUp" finished-at="2018-04-06T21:13:51Z" duration-ms="5587" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:50Z" name="setUp" finished-at="2018-04-08T15:26:55Z" duration-ms="5256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToShop()[pri:40, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:51Z" name="navigateToShop" finished-at="2018-04-06T21:13:53Z" duration-ms="2131" status="PASS">
+        <test-method signature="navigateToShop()[pri:40, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:55Z" name="navigateToShop" finished-at="2018-04-08T15:26:56Z" duration-ms="1155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToShop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:53Z" name="tearDown" finished-at="2018-04-06T21:13:54Z" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:56Z" name="tearDown" finished-at="2018-04-08T15:26:56Z" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:54Z" name="setUp" finished-at="2018-04-06T21:13:57Z" duration-ms="3138" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:26:56Z" name="setUp" finished-at="2018-04-08T15:27:02Z" duration-ms="5676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToAnnualPassports()[pri:50, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:13:57Z" name="navigateToAnnualPassports" finished-at="2018-04-06T21:14:01Z" duration-ms="4457" status="PASS">
+        <test-method signature="navigateToAnnualPassports()[pri:50, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:02Z" name="navigateToAnnualPassports" finished-at="2018-04-08T15:27:06Z" duration-ms="3687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAnnualPassports -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:14:01Z" name="tearDown" finished-at="2018-04-06T21:14:01Z" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:06Z" name="tearDown" finished-at="2018-04-08T15:27:06Z" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:14:01Z" name="setUp" finished-at="2018-04-06T21:14:07Z" duration-ms="5857" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:06Z" name="setUp" finished-at="2018-04-08T15:27:09Z" duration-ms="3036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToHelp()[pri:60, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:14:07Z" name="navigateToHelp" finished-at="2018-04-06T21:14:10Z" duration-ms="2863" status="PASS">
+        <test-method signature="navigateToHelp()[pri:60, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:09Z" name="navigateToHelp" finished-at="2018-04-08T15:27:12Z" duration-ms="3235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToHelp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:14:10Z" name="tearDown" finished-at="2018-04-06T21:14:10Z" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:12Z" name="tearDown" finished-at="2018-04-08T15:27:12Z" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:14:10Z" name="setUp" finished-at="2018-04-06T21:14:15Z" duration-ms="5349" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:12Z" name="setUp" finished-at="2018-04-08T15:27:15Z" duration-ms="3257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToCart()[pri:70, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:14:15Z" name="navigateToCart" finished-at="2018-04-06T21:14:19Z" duration-ms="3280" status="PASS">
+        <test-method signature="navigateToCart()[pri:70, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:15Z" name="navigateToCart" finished-at="2018-04-08T15:27:19Z" duration-ms="3446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-06T21:14:19Z" name="tearDown" finished-at="2018-04-06T21:14:19Z" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.HomePageTest@fa36558]" started-at="2018-04-08T15:27:19Z" name="tearDown" finished-at="2018-04-08T15:27:19Z" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.disneygo.qa.testcases.HomePageTest -->
       <class name="com.disneygo.qa.testcases.DisneylandParkPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-06T21:12:30Z" name="setUp" finished-at="2018-04-06T21:12:40Z" duration-ms="9884" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-08T15:25:48Z" name="setUp" finished-at="2018-04-08T15:26:00Z" duration-ms="11844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDisneylandPageText()[pri:1, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-06T21:12:40Z" name="verifyDisneylandPageText" finished-at="2018-04-06T21:12:40Z" duration-ms="40" status="PASS">
+        <test-method signature="verifyDisneylandPageText()[pri:1, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-08T15:26:00Z" name="verifyDisneylandPageText" finished-at="2018-04-08T15:26:00Z" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisneylandPageText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-06T21:12:40Z" name="tearDown" finished-at="2018-04-06T21:12:40Z" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.disneygo.qa.testcases.DisneylandParkPageTest@672872e1]" started-at="2018-04-08T15:26:00Z" name="tearDown" finished-at="2018-04-08T15:26:00Z" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
